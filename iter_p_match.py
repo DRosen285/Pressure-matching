@@ -80,6 +80,9 @@ print(c_2/prefactor)
 #print (c_2*1000/prefactor)
 print ((c/prefactor)-c_2/prefactor)
 
+#if virial (p_icg) contains additional volume dependent Force term, then:
+# c=(c-c_2)+c(DA (obtained from p_match.py))
+
 ####### theoretical framework of the code #########
 
 # based on Das,Andersen J. Chem. Phys. 132 (2010) and Dunn,Noid J. Chem. Phys. 143 (2015)
